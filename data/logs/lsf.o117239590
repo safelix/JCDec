@@ -1,0 +1,36 @@
+Sender: LSF System <lsfadmin@eu-c7-050-11>
+Subject: Job 117239590: <fast_bernoulli.py> in cluster <euler> Exited
+
+Job <fast_bernoulli.py> was submitted from host <eu-login-38> by user <safelix> in cluster <euler> at Mon Apr  6 02:50:34 2020
+Job was executed on host(s) <4*eu-c7-050-11>, in queue <normal.4h>, as user <safelix> in cluster <euler> at Mon Apr  6 02:50:56 2020
+</cluster/home/safelix> was used as the home directory.
+</cluster/home/safelix/chevalley/code> was used as the working directory.
+Started at Mon Apr  6 02:50:56 2020
+Terminated at Mon Apr  6 02:50:58 2020
+Results reported at Mon Apr  6 02:50:58 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+fast_bernoulli.py
+------------------------------------------------------------
+
+Exited with exit code 127.
+
+Resource usage summary:
+
+    CPU time :                                   0.12 sec.
+    Max Memory :                                 6 MB
+    Average Memory :                             -
+    Total Requested Memory :                     4096.00 MB
+    Delta Memory :                               4090.00 MB
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   28 sec.
+    Turnaround time :                            24 sec.
+
+The output (if any) follows:
+
+/cluster/shadow/.lsbatch/1586134234.117239590: line 8: fast_bernoulli.py: command not found

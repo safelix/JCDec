@@ -1,0 +1,135 @@
+Sender: LSF System <lsfadmin@eu-ms-020-42>
+Subject: Job 117254714: <python fast_bernoulli.py> in cluster <euler> Exited
+
+Job <python fast_bernoulli.py> was submitted from host <eu-login-25> by user <safelix> in cluster <euler> at Mon Apr  6 11:08:35 2020
+Job was executed on host(s) <eu-ms-020-42>, in queue <normal.4h>, as user <safelix> in cluster <euler> at Mon Apr  6 11:08:56 2020
+</cluster/home/safelix> was used as the home directory.
+</cluster/home/safelix/chevalley/code> was used as the working directory.
+Started at Mon Apr  6 11:08:56 2020
+Terminated at Mon Apr  6 11:09:02 2020
+Results reported at Mon Apr  6 11:09:02 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python fast_bernoulli.py
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   2.26 sec.
+    Max Memory :                                 215 MB
+    Average Memory :                             85.00 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               809.00 MB
+    Max Swap :                                   -
+    Max Processes :                              14
+    Max Threads :                                17
+    Run time :                                   31 sec.
+    Turnaround time :                            27 sec.
+
+The output (if any) follows:
+
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                8
+On-line CPU(s) list:   0-7
+Thread(s) per core:    2
+Core(s) per socket:    4
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 94
+Model name:            Intel(R) Xeon(R) CPU E3-1585L v5 @ 3.00GHz
+Stepping:              3
+CPU MHz:               3118.652
+CPU max MHz:           3700.0000
+CPU min MHz:           800.0000
+BogoMIPS:              6000.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              8192K
+NUMA node0 CPU(s):     0-7
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb intel_pt ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp spec_ctrl intel_stibp flush_l1d
+<class 'jordanchevalley.JCDec'>
+Fatal Python error: initsite: Failed to import the site module
+Fatal Python error: initsite: Failed to import the site module
+Traceback (most recent call last):
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/site.py", line 579, in <module>
+    main()
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/site.py", line 565, in main
+    known_paths = addusersitepackages(known_paths)
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/site.py", line 315, in addusersitepackages
+    addsitedir(user_site, known_paths)
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/site.py", line 202, in addsitedir
+    names = os.listdir(sitedir)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/site.py", line 579, in <module>
+    main()
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/site.py", line 566, in main
+    known_paths = addsitepackages(known_paths)
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/site.py", line 349, in addsitepackages
+    addsitedir(sitedir, known_paths)
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/site.py", line 207, in addsitedir
+    addpackage(sitedir, name, known_paths)
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/site.py", line 168, in addpackage
+    exec(line)
+  File "<string>", line 1, in <module>
+  File "<frozen importlib._bootstrap_external>", line 1280, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1247, in _get_spec
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/multiprocessing/__init__.py", line 16, in <module>
+    from . import context
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/multiprocessing/context.py", line 3, in <module>
+    import threading
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/threading.py", line 8, in <module>
+    from traceback import format_exc as _format_exc
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 818, in get_code
+  File "<frozen importlib._bootstrap_external>", line 916, in get_data
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/multiprocessing/__init__.py", line 16, in <module>
+    from . import context
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/multiprocessing/context.py", line 6, in <module>
+    from . import reduction
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/multiprocessing/reduction.py", line 16, in <module>
+    import socket
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/socket.py", line 91, in <module>
+    lambda C: C.isupper() and C.startswith('AI_'))
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/enum.py", line 634, in _convert
+    for name in source.keys()
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/enum.py", line 635, in <listcomp>
+    if filter(name)]
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/socket.py", line 91, in <lambda>
+    lambda C: C.isupper() and C.startswith('AI_'))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "fast_bernoulli.py", line 101, in <module>
+    Parallel(n_jobs=n_jobs)( delayed(run)(proba) for proba in ps )
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/site-packages/joblib/parallel.py", line 934, in __call__
+    self.retrieve()
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/site-packages/joblib/parallel.py", line 833, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/site-packages/joblib/_parallel_backends.py", line 521, in wrap_future_result
+    return future.result(timeout=timeout)
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/concurrent/futures/_base.py", line 427, in result
+    self._condition.wait(timeout)
+  File "/cluster/apps/python/3.7.1/x86_64/lib64/python3.7/threading.py", line 296, in wait
+    waiter.acquire()
+KeyboardInterrupt

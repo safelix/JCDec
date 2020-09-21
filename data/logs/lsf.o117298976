@@ -1,0 +1,62 @@
+Sender: LSF System <lsfadmin@eu-ms-026-37>
+Subject: Job 117298976: <python full_bernoulli.py> in cluster <euler> Exited
+
+Job <python full_bernoulli.py> was submitted from host <eu-login-41> by user <safelix> in cluster <euler> at Tue Apr  7 02:16:45 2020
+Job was executed on host(s) <eu-ms-026-37>, in queue <normal.4h>, as user <safelix> in cluster <euler> at Tue Apr  7 02:17:20 2020
+</cluster/home/safelix> was used as the home directory.
+</cluster/home/safelix/chevalley/code> was used as the working directory.
+Started at Tue Apr  7 02:17:20 2020
+Terminated at Tue Apr  7 02:17:52 2020
+Results reported at Tue Apr  7 02:17:52 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python full_bernoulli.py
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 143.
+
+Resource usage summary:
+
+    CPU time :                                   30.36 sec.
+    Max Memory :                                 138 MB
+    Average Memory :                             136.33 MB
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               886.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   55 sec.
+    Turnaround time :                            67 sec.
+
+The output (if any) follows:
+
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                8
+On-line CPU(s) list:   0-7
+Thread(s) per core:    2
+Core(s) per socket:    4
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 94
+Model name:            Intel(R) Xeon(R) CPU E3-1585L v5 @ 3.00GHz
+Stepping:              3
+CPU MHz:               3418.212
+CPU max MHz:           3700.0000
+CPU min MHz:           800.0000
+BogoMIPS:              6000.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              8192K
+NUMA node0 CPU(s):     0-7
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb intel_pt ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp spec_ctrl intel_stibp flush_l1d
+Terminated

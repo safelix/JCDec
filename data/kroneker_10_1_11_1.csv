@@ -1,0 +1,2 @@
+,n,no_iter,trivial,time A,time chiA,time muD,time inv,time chev,time D_mat,time N,bitsize A,bitsize chiA,bitsize muD,bitsize inv,bitsize chev,bitsize D_mat,bitsize N,nill,comm
+0,1024,3,False,0.185409564,1133.83665635,0.14736686,,,60811.604964879,0.35087241,1.0,356.0,3.0,,,4.0,4.0,0.0,0.0

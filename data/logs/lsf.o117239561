@@ -1,0 +1,134 @@
+Sender: LSF System <lsfadmin@eu-c7-056-08>
+Subject: Job 117239561: <python fast_bernoulli.py> in cluster <euler> Done
+
+Job <python fast_bernoulli.py> was submitted from host <eu-login-38> by user <safelix> in cluster <euler> at Mon Apr  6 02:44:05 2020
+Job was executed on host(s) <4*eu-c7-056-08>, in queue <normal.4h>, as user <safelix> in cluster <euler> at Mon Apr  6 02:44:26 2020
+</cluster/home/safelix> was used as the home directory.
+</cluster/home/safelix/chevalley/code> was used as the working directory.
+Started at Mon Apr  6 02:44:26 2020
+Terminated at Mon Apr  6 02:44:34 2020
+Results reported at Mon Apr  6 02:44:34 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python fast_bernoulli.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6.00 sec.
+    Max Memory :                                 337 MB
+    Average Memory :                             176.67 MB
+    Total Requested Memory :                     4096.00 MB
+    Delta Memory :                               3759.00 MB
+    Max Swap :                                   -
+    Max Processes :                              14
+    Max Threads :                                17
+    Run time :                                   19 sec.
+    Turnaround time :                            29 sec.
+
+The output (if any) follows:
+
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                48
+On-line CPU(s) list:   0-47
+Thread(s) per core:    2
+Core(s) per socket:    12
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 63
+Model name:            Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz
+Stepping:              2
+CPU MHz:               2799.987
+CPU max MHz:           3300.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              4994.24
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              30720K
+NUMA node0 CPU(s):     0-11,24-35
+NUMA node1 CPU(s):     12-23,36-47
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb intel_ppin ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm xsaveopt cqm_llc cqm_occup_llc dtherm ida arat pln pts spec_ctrl intel_stibp flush_l1d
+<class 'jordanchevalley.JCDec'>
+0  5  1  False     time: 0.6156651973724365s     bitsize:  1.0
+1  5  0  True     time: 0.0058078765869140625s     bitsize:  2.0
+store data:
+   0  1      2         0         1         2  ...   3   4    5    6    0    1
+0  5  1  False  0.000028  0.000132  0.000126  ... NaN NaN  1.0  1.0  0.0  0.0
+1  5  0   True  0.000024  0.000125  0.000116  ... NaN NaN  1.0  0.0  0.0  0.0
+
+[2 rows x 19 columns]
+2  10  0  True     time: 0.023038387298583984s     bitsize:  4.0
+3  10  0  True     time: 0.020419836044311523s     bitsize:  3.0
+store data:
+    0  1      2         0         1         2  ...   3   4    5    6    0    1
+0   5  1  False  0.000028  0.000132  0.000126  ... NaN NaN  1.0  1.0  0.0  0.0
+1   5  0   True  0.000024  0.000125  0.000116  ... NaN NaN  1.0  0.0  0.0  0.0
+2  10  0   True  0.000039  0.000558  0.000386  ... NaN NaN  1.0  0.0  0.0  0.0
+3  10  0   True  0.000032  0.000593  0.000378  ... NaN NaN  1.0  0.0  0.0  0.0
+
+[4 rows x 19 columns]
+0  5  1  False     time: 0.6052460670471191s     bitsize:  1.0
+1  5  0  True     time: 0.0053558349609375s     bitsize:  1.0
+store data:
+   0  1      2         0         1         2  ...   3   4    5    6    0    1
+0  5  1  False  0.000030  0.000075  0.000066  ... NaN NaN  0.0  1.0  0.0  0.0
+1  5  0   True  0.000011  0.000037  0.000078  ... NaN NaN  1.0  0.0  0.0  0.0
+
+[2 rows x 19 columns]
+2  10  1  False     time: 0.01611614227294922s     bitsize:  1.0
+3  10  3  False     time: 0.03069162368774414s     bitsize:  2.0
+store data:
+    0  1      2         0         1         2  ...   3   4    5    6    0    1
+0   5  1  False  0.000030  0.000075  0.000066  ... NaN NaN  0.0  1.0  0.0  0.0
+1   5  0   True  0.000011  0.000037  0.000078  ... NaN NaN  1.0  0.0  0.0  0.0
+2  10  1  False  0.000028  0.000132  0.000086  ... NaN NaN  0.0  1.0  0.0  0.0
+3  10  3  False  0.000026  0.000135  0.000124  ... NaN NaN  2.0  2.0  0.0  0.0
+
+[4 rows x 19 columns]
+0  5  0  True     time: 0.495711088180542s     bitsize:  2.0
+1  5  0  True     time: 0.0066623687744140625s     bitsize:  2.0
+store data:
+   0  1     2         0         1         2  ...   3   4    5    6    0    1
+0  5  0  True  0.000032  0.000103  0.000146  ... NaN NaN  1.0  0.0  0.0  0.0
+1  5  0  True  0.000016  0.000141  0.000165  ... NaN NaN  1.0  0.0  0.0  0.0
+
+[2 rows x 19 columns]
+2  10  0  True     time: 0.023265838623046875s     bitsize:  4.0
+3  10  0  True     time: 0.02331852912902832s     bitsize:  5.0
+store data:
+    0  1     2         0         1         2  ...   3   4    5    6    0    1
+0   5  0  True  0.000032  0.000103  0.000146  ... NaN NaN  1.0  0.0  0.0  0.0
+1   5  0  True  0.000016  0.000141  0.000165  ... NaN NaN  1.0  0.0  0.0  0.0
+2  10  0  True  0.000043  0.000683  0.000430  ... NaN NaN  1.0  0.0  0.0  0.0
+3  10  0  True  0.000043  0.000679  0.000479  ... NaN NaN  1.0  0.0  0.0  0.0
+
+[4 rows x 19 columns]
+0  5  1  False     time: 0.623852014541626s     bitsize:  2.0
+1  5  1  False     time: 0.005773305892944336s     bitsize:  1.0
+store data:
+   0  1      2         0         1         2  ...   3   4    5    6    0    1
+0  5  1  False  0.000030  0.000090  0.000098  ... NaN NaN  1.0  1.0  0.0  0.0
+1  5  1  False  0.000011  0.000073  0.000057  ... NaN NaN  0.0  1.0  0.0  0.0
+
+[2 rows x 19 columns]
+2  10  1  False     time: 0.030324459075927734s     bitsize:  2.0
+3  10  1  False     time: 0.03213691711425781s     bitsize:  3.0
+store data:
+    0  1      2         0         1         2  ...   3   4    5    6    0    1
+0   5  1  False  0.000030  0.000090  0.000098  ... NaN NaN  1.0  1.0  0.0  0.0
+1   5  1  False  0.000011  0.000073  0.000057  ... NaN NaN  0.0  1.0  0.0  0.0
+2  10  1  False  0.000031  0.000451  0.000258  ... NaN NaN  2.0  1.0  0.0  0.0
+3  10  1  False  0.000028  0.000395  0.000308  ... NaN NaN  3.0  3.0  0.0  0.0
+
+[4 rows x 19 columns]

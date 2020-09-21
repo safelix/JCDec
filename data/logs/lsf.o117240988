@@ -1,0 +1,36 @@
+Sender: LSF System <lsfadmin@eu-c7-041-14>
+Subject: Job 117240988: <kroneker.py> in cluster <euler> Exited
+
+Job <kroneker.py> was submitted from host <eu-login-38> by user <safelix> in cluster <euler> at Mon Apr  6 03:55:48 2020
+Job was executed on host(s) <eu-c7-041-14>, in queue <normal.4h>, as user <safelix> in cluster <euler> at Mon Apr  6 03:56:06 2020
+</cluster/home/safelix> was used as the home directory.
+</cluster/home/safelix/chevalley/code> was used as the working directory.
+Started at Mon Apr  6 03:56:06 2020
+Terminated at Mon Apr  6 03:56:07 2020
+Results reported at Mon Apr  6 03:56:07 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+kroneker.py
+------------------------------------------------------------
+
+Exited with exit code 127.
+
+Resource usage summary:
+
+    CPU time :                                   0.10 sec.
+    Max Memory :                                 6 MB
+    Average Memory :                             -
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               1018.00 MB
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   27 sec.
+    Turnaround time :                            19 sec.
+
+The output (if any) follows:
+
+/cluster/shadow/.lsbatch/1586138148.117240988: line 8: kroneker.py: command not found

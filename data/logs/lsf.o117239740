@@ -1,0 +1,36 @@
+Sender: LSF System <lsfadmin@eu-c7-041-14>
+Subject: Job 117239740: <charpoly.py> in cluster <euler> Exited
+
+Job <charpoly.py> was submitted from host <eu-login-38> by user <safelix> in cluster <euler> at Mon Apr  6 02:52:15 2020
+Job was executed on host(s) <eu-c7-041-14>, in queue <normal.4h>, as user <safelix> in cluster <euler> at Mon Apr  6 02:52:27 2020
+</cluster/home/safelix> was used as the home directory.
+</cluster/home/safelix/chevalley/code> was used as the working directory.
+Started at Mon Apr  6 02:52:27 2020
+Terminated at Mon Apr  6 02:52:29 2020
+Results reported at Mon Apr  6 02:52:29 2020
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+charpoly.py
+------------------------------------------------------------
+
+Exited with exit code 127.
+
+Resource usage summary:
+
+    CPU time :                                   0.09 sec.
+    Max Memory :                                 6 MB
+    Average Memory :                             -
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               1018.00 MB
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   27 sec.
+    Turnaround time :                            14 sec.
+
+The output (if any) follows:
+
+/cluster/shadow/.lsbatch/1586134335.117239740: line 8: charpoly.py: command not found

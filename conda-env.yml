@@ -1,0 +1,11 @@
+channels:
+- defaults
+
+dependencies:
+# Frontend: Cython to generate the interface 
+- cython
+# Misc: usfull packages python 
+- numpy
+- matplotlib
+- pandas
+- joblib
